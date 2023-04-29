@@ -17,14 +17,14 @@ public class CursoGit
     public static void main(String[] args)
     {
         // TODO code application logic here
-        int arr[] = {12,315,1,213,125,23};
-       int suma =0;
+        double arr[] = {12.1,315.4,1,213,125,23,0.1};
+       double suma =0;
        double media;
         for (int i = 0; i < arr.length; i++)
         {
             suma+=arr[i];
         }
-        media = ((double)(suma))/((double)(arr.length));
+        media = suma/((double)(arr.length));
         System.out.println("El promedio es :"+media);
     }
     
