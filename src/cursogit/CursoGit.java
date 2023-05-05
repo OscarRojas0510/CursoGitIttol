@@ -18,13 +18,16 @@ public class CursoGit
     {
         // TODO code application logic here
         int j = 0;
-       double arr[] = {12.1,315.4,1,213,125,23,0.1};
+       double arr[] = {14,3215.4,1,213,125,23,0.1};
        double suma =0;
        double media;
+       Animal obj2 = new Animal("jirafa", "jirafa", 150.4, (byte)19);
+        System.out.println(obj2.getEspecie());
         for (int i = 0; i < arr.length; i++)
         {
             suma+=arr[i];
             System.out.println(j);
+            j++;
         }
         media = suma/((double)(arr.length));
         System.out.println("El promedio es :"+media);
