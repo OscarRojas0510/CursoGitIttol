@@ -18,9 +18,11 @@ public class CursoGit
     {
         // TODO code application logic here
         int j = 0;
-       double arr[] = {12.1,315.4,1,213,125,23,0.1};
+       double arr[] = {12.1,315.4,100,213,125,238,9.1};
        double suma =0;
        double media;
+       Carro obj = new Carro(4, "Rojo", "Mercedez", "no c");
+        System.out.println(obj.getModelo());
         for (int i = 0; i < arr.length; i++)
         {
             suma+=arr[i];
