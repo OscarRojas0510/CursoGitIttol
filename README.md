@@ -1,2 +1,3 @@
 # CursoGitIttol
-:'v
+
+MOdificacion desde centos en vmware workstationpro
